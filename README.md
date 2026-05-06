@@ -18,10 +18,10 @@ clases abstractas, interfaces, herencia y polimorfismo.
 
 | Nombre | Rol |
 |--------|-----|
-| Joaquin Baigorria | Arquitectura de clases, logica de prestamos, integracion general |
-| [Compañero 2] | Clase Biblioteca, metodos de busqueda |
-| [Compañero 3] | Clase Socio, pruebas y README |
-| [Compañero 4 si hay] | Main, menu interactivo |
+| Joaquin Baigorria | Intro, demo, Main y menu interactivo |
+| [Compañero 1] | Interfaz Prestable + clase abstracta MaterialBiblioteca |
+| [Compañero 2] | Clase Libro (herencia, super, Override, encapsulamiento) |
+| [Compañero 3] | Clase Biblioteca (ArrayList, busqueda, polimorfismo) |
 
 ---
 
@@ -201,26 +201,27 @@ Cada integrante explica su parte con camara encendida y codigo en pantalla.
 
 ### Guia de lo que explica cada uno
 
-**Integrante 1 — Arquitectura base**
-- Por que usamos una interfaz (`Prestable`) y no solo la clase abstracta
-- Diferencia entre `abstract` e `interface` en Java
-- Por que `MaterialBiblioteca` tiene atributos `protected` y no `private`
+**Joaquin — Intro + Main**
+- Demo en vivo del menu funcionando
+- Como funciona el do-while con switch
+- Por que usamos scanner.nextLine() despues de nextInt()
+- Como se maneja la entrada invalida con hasNextInt()
 
-**Integrante 2 — Clase Libro**
-- Que hace `extends MaterialBiblioteca`
-- Que hace `super(titulo, anio)` en el constructor
-- Por que usamos `@Override` en `prestar()` y `devolver()`
-- Encapsulamiento: por que `private` y para que sirven los getters/setters
+**Compañero 1 — Prestable + MaterialBiblioteca**
+- Que es una interfaz y para que sirve
+- Que es una clase abstracta y por que no se puede instanciar
+- Por que usamos las dos juntas en lugar de solo una
 
-**Integrante 3 — Clase Biblioteca**
-- Que es un `ArrayList` y por que lo usamos
-- Como funciona `buscarPorTitulo` con `equalsIgnoreCase`
-- Polimorfismo: por que la lista es de `MaterialBiblioteca` y no de `Libro`
+**Compañero 2 — Clase Libro**
+- Que hace extends MaterialBiblioteca
+- Que hace super(titulo, anio) en el constructor
+- Por que usamos @Override en prestar() y devolver()
+- Encapsulamiento: private + getters/setters
 
-**Integrante 4 — Main y menu**
-- Como funciona el `do-while` con `switch`
-- Por que usamos `scanner.nextLine()` despues de `nextInt()`
-- Como se maneja la entrada invalida con `hasNextInt()`
+**Compañero 3 — Clase Biblioteca**
+- Que es un ArrayList y por que lo usamos
+- Como funciona buscarPorTitulo con equalsIgnoreCase
+- Polimorfismo: por que la lista es de MaterialBiblioteca y no de Libro
 
 ---
 
