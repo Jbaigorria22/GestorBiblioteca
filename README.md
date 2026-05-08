@@ -19,9 +19,9 @@ clases abstractas, interfaces, herencia y polimorfismo.
 | Nombre | Rol |
 |--------|-----|
 | Joaquin Baigorria | Intro, demo, Main y menu interactivo |
-| [Compañero 1] | Interfaz Prestable + clase abstracta MaterialBiblioteca |
-| [Compañero 2] | Clase Libro (herencia, super, Override, encapsulamiento) |
-| [Compañero 3] | Clase Biblioteca (ArrayList, busqueda, polimorfismo) |
+| Giuliano Baldini | Clase Biblioteca (ArrayList, busqueda, polimorfismo) |
+| Matias Davico | Clase Libro (herencia, super, Override, encapsulamiento) |
+| Franco Tellechea | Interfaz Prestable + clase abstracta MaterialBiblioteca |
 
 ---
 
@@ -201,24 +201,24 @@ Cada integrante explica su parte con camara encendida y codigo en pantalla.
 
 ### Guia de lo que explica cada uno
 
-**Joaquin — Intro + Main**
+**Joaquin Baigorria — Intro + Demo + Main**
 - Demo en vivo del menu funcionando
 - Como funciona el do-while con switch
 - Por que usamos scanner.nextLine() despues de nextInt()
 - Como se maneja la entrada invalida con hasNextInt()
 
-**Compañero 1 — Prestable + MaterialBiblioteca**
+**Franco Tellechea — Prestable + MaterialBiblioteca**
 - Que es una interfaz y para que sirve
 - Que es una clase abstracta y por que no se puede instanciar
 - Por que usamos las dos juntas en lugar de solo una
 
-**Compañero 2 — Clase Libro**
+**Matias Davico — Clase Libro**
 - Que hace extends MaterialBiblioteca
 - Que hace super(titulo, anio) en el constructor
 - Por que usamos @Override en prestar() y devolver()
 - Encapsulamiento: private + getters/setters
 
-**Compañero 3 — Clase Biblioteca**
+**Giuliano Baldini — Clase Biblioteca**
 - Que es un ArrayList y por que lo usamos
 - Como funciona buscarPorTitulo con equalsIgnoreCase
 - Polimorfismo: por que la lista es de MaterialBiblioteca y no de Libro
